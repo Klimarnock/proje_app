@@ -24,3 +24,6 @@ app-debug.apk -----------> Uygulamanın kendisi
 
 termas_rep   ------------> Teslim raporu
 
+
+
+A-Native ----------------> Sunum dosyası
