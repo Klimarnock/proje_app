@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loginRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#071012">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FITNESS TRACKER"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track your workouts. Improve your progress."
+        android:textColor="#AAAAAA"
+        android:textSize="14sp"
+        android:layout_marginBottom="36dp" />
+
+    <EditText
+        android:id="@+id/etLoginName"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Athlete name"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:background="@drawable/bg_input_green"
+        android:padding="16dp"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="LOGIN"
+        android:textColor="#101010"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:backgroundTint="#19F56A"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="CREATE ATHLETE PROFILE"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:backgroundTint="#202020" />
+
+</LinearLayout>

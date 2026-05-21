@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dashboardRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp"
+    android:background="#071012">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="DASHBOARD"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:background="#202020"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Athlete"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose what you want to do today."
+        android:textColor="#AAAAAA"
+        android:textSize="15sp"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:background="@drawable/bg_card_dark"
+        android:padding="18dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today Summary"
+            android:textColor="#22E66A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEEKLY PROGRESS"
+            android:textColor="#22E66A"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories Goal"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progressCalories"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="3000"
+            android:progress="0"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workout Duration Goal"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+        <ProgressBar
+            android:id="@+id/progressDuration"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:max="500"
+            android:progress="0"
+            android:layout_marginBottom="20dp" />
+        <TextView
+            android:id="@+id/tvTotalWorkouts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Workouts: 0"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvTotalCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: 0 kcal"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:id="@+id/tvTotalDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: 0 min"
+            android:textColor="#AAAAAA"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoAddActivity"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="ADD ACTIVITY"
+        android:textColor="#101010"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#19F56A"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/btnGoHistory"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="WORKOUT HISTORY"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#202020"
+        android:layout_marginBottom="14dp" />
+    <Button
+        android:id="@+id/btnGlobalFeed"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="GLOBAL ACTIVITY FEED"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#303030"
+        android:layout_marginBottom="14dp" />
+    <Button
+        android:id="@+id/btnGoProfile"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="EDIT ATHLETE PROFILE"
+
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#202020" />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:text="LOGOUT"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF4D4D"
+        android:layout_marginTop="14dp" />
+
+</LinearLayout>
