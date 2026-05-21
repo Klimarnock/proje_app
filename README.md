@@ -19,3 +19,8 @@ WhatsApp Image-----------> Uml diyagramı
 
 
 app-debug.apk -----------> Uygulamanın kendisi
+
+
+
+termas_rep   ------------> Teslim raporu
+
